@@ -11,7 +11,7 @@ function NavBar() {
     return (
         <>
             <nav>
-                <div className='text-white flex justify-between h-28 max-w-[1400px] mx-auto items-center px-4'>
+                <div className='text-white flex justify-between h-28 max-w-[1240px] mx-auto items-center px-4'>
                     <h1 className='w-full z-10 font-bold text-4xl md:text-4xl text-[#00df9a] uppercase'>folio.</h1>
                     <ul className='ul hidden md:flex items-center'>
                         <li className='px-7 font-medium text-lg hover:text-[#00df9a]'><a href=''>About</a></li>
@@ -24,7 +24,7 @@ function NavBar() {
                         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
                     </div>
                 </div>
-                <div className={nav ? 'fixed md:hidden top-0 left-0 z-50 bg-[#000300] border-r border-r-gray-900 w-[300px] h-full ease-in-out duration-500' : 'fixed left-[-100%]'}>
+                <div className={nav ? 'fixed md:hidden top-0 left-0 z-50 bg-[#000300] border-r border-r-gray-900 w-[300px] h-full ease-in-out delay-300 duration-500' : 'fixed left-[-100%]'}>
                     <h1 className='w-full p-7 font-extrabold text-4xl text-[#00df9a] uppercase'>folio.</h1>
                     <ul className='text-white p-4 uppercase'>
                         <li className='p-4 border-b  hover:text-[#00df9a] border-b-gray-600 font-medium'><a href=''>About</a></li>

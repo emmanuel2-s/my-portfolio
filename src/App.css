@@ -31,11 +31,11 @@ h1,
   transform-origin: left;
 }
 
-.resume {
+/* .resume {
   position: relative;
-}
+} */
 
-.resume::after {
+/* .resume::after {
   position: absolute;
   content: "";
   left: 230px;
@@ -43,6 +43,11 @@ h1,
   height: 4px;
   width: 30%;
   background: #00df9a;
+} */
+
+.mis li {
+  list-style-image: url(/src/assets/img/list\ terms.png);
+
 }
 
 /* .home {
