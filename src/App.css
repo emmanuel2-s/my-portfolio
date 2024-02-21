@@ -3,17 +3,17 @@
   src: url('./assets/fonts/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Bold.woff') format('woff');
 }
 
-.ul li a {
+/* .ul li a {
   position: relative;
   padding-bottom: 4px;
-}
+} */
 
 h1,
 .typed {
   font-family: 'Clash Display', sans-serif;
 }
 
-.ul li a::before {
+/* .ul li a::before {
   position: absolute;
   content: "";
   left: 0;
@@ -29,7 +29,7 @@ h1,
 .ul li a:hover::before {
   transform: scaleX(1);
   transform-origin: left;
-}
+} */
 
 /* .resume {
   position: relative;
@@ -50,6 +50,37 @@ h1,
 
 }
 
+@media (min-width:640px) {
+  .hty {
+      -webkit-animation: animatezoom 2s;
+      animation: animatezoom 2s;
+    }
+  
+    @-webkit-keyframes animatezoom {
+      from {
+        -webkit-transform: translateX(-400px);
+        opacity: 0;
+      }
+  
+      to {
+        -webkit-transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  
+    @keyframes animatezoom {
+      from {
+        transform: translateX(-400px);
+        opacity: 0;
+      }
+  
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+}
+
 /* .home {
   background-color: #00df9a;
   position: absolute;
@@ -65,7 +96,4 @@ h1,
     display: none;
   }
 
-  .resume::after {
-    left: 170px;
-  }
 }
