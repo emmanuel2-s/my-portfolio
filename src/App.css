@@ -46,7 +46,7 @@ h1,
 } */
 
 .mis li {
-  list-style-image: url(../src/assets/img/list\ terms.png);
+  list-style-image: url(./assets/img/list\ terms.png);
 
 }
 
