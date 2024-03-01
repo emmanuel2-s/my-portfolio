@@ -8,25 +8,33 @@ function NavBar() {
     setNav(!nav);
   };
 
+  const hideMobileNav = () => {
+    setNav((prev) => !prev);
+  };
+
   return (
     <>
       <nav>
-        <div className="text-white flex justify-between h-28 max-w-[1640px] mx-auto items-center px-4">
-          <h1 className="w-full z-10 font-bold text-4xl md:text-4xl text-[#00df9a] uppercase">
+        {/* desktop menu */}
+        <div className="text-white flex justify-between h-20 py-2 max-w-[1640px] mx-auto items-center px-4 z-[100] fixed w-full bg-black/70 top-0">
+          <a
+            href="#"
+            className="w-full decoration-transparent z-10 font-bold text-4xl md:text-4xl text-[#00df9a] uppercase"
+          >
             folio.
-          </h1>
-          <ul className="ul hidden md:flex items-center">
+          </a>
+          <ul className="ul hidden md:flex items-center md:mr-4">
             <li className="px-7 font-medium  text-base hover:text-[#00df9a] transition-all">
-              <a href="">About</a>
+              <a href="#about">About</a>
             </li>
             <li className="px-7 font-medium text-base hover:text-[#00df9a] transition-all">
-              <a href="">Skills</a>
+              <a href="#skill">Skills</a>
             </li>
             <li className="px-7 font-medium text-base hover:text-[#00df9a] transition-all">
-              <a href="">Portfolio</a>
+              <a href="#portfolio">Portfolio</a>
             </li>
             <li className="px-7 font-medium text-base hover:text-[#00df9a] transition-all">
-              <a href="">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
             <li className="px-10 cursor-pointer font-medium text-base hover:text-[#00df9a] transition-all  border-[#00df9a] p-3 border-4 rounded-lg hover:shadow-[0_0_10px_#00df9a]">
               {" "}
@@ -37,28 +45,35 @@ function NavBar() {
             {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
           </div>
         </div>
+
+        {/* mobile menu */}
         <div
           className={
             nav
               ? "fixed md:hidden top-0 left-0 z-50 bg-[#000300] border-r border-r-gray-900 w-[300px] h-full ease-in-out delay-300 duration-500"
               : "fixed left-[-100%] transition-all"
           }
+          id="mobile-div"
+          onClick={hideMobileNav}
         >
-          <h1 className="w-full p-7 font-extrabold text-4xl text-[#00df9a] uppercase">
+          <a
+            href="#"
+            className="w-full p-7 font-extrabold text-4xl decoration-transparent text-[#00df9a] uppercase"
+          >
             folio.
-          </h1>
+          </a>
           <ul className="text-white p-4 uppercase">
             <li className="p-4 border-b  hover:text-[#00df9a] border-b-gray-600 font-medium">
-              <a href="">About</a>
+              <a href="#about">About</a>
             </li>
             <li className="p-4 border-b  hover:text-[#00df9a] border-b-gray-600 font-medium">
-              <a href="">Skills</a>
+              <a href="#skill">Skills</a>
             </li>
             <li className="p-4 border-b  hover:text-[#00df9a] border-b-gray-600 font-medium">
-              <a href="">Portfolio</a>
+              <a href="#portfolio">Portfolio</a>
             </li>
             <li className="p-4 font-medium hover:text-[#00df9a] ">
-              <a href="">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
             <li className="p-4 font-medium"></li>
           </ul>

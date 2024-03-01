@@ -1,5 +1,6 @@
 import React from "react";
-import profil from "../assets/img/photo.jpg";
+// import profil from "../assets/img/photo.jpg";
+import profil from "../assets/img/snapchat.jpg";
 import { AiFillProfile, AiOutlineDownload } from "react-icons/ai";
 
 import {
@@ -16,7 +17,7 @@ function About() {
   return (
     <>
       <div className="w-full py-8">
-        <div className="max-w-[1440px] mx-auto">
+        <div className="max-w-[1440px] mx-auto" id="about">
           <h1 className="text-[#00df9a] text-center md:text-left text-4xl md:text-4xl font-extrabold px-3">
             About Me
           </h1>
@@ -25,7 +26,7 @@ function About() {
             <div className=" md:px-6 py-4 px-3 w-full lg:w-3/5">
               <div className="flex justify-center items-center md:justify-start py-3">
                 <AiFillProfile className="f text-[#00df9a]" size={30} />
-                <h3 className="text-2xl md:text-2xl font-bold px-2 text-slate-300">
+                <h3 className="text-2xl md:text-2xl font-bold px-2 text-slate-400">
                   Key summary
                 </h3>
               </div>
@@ -44,13 +45,13 @@ function About() {
                 solution to a problem .
               </p>
               <div className="">
-                <h3 className="font-bold border-b text-xl flex items-center py-2 text-slate-300">
+                <h3 className="font-bold border-b text-xl flex items-center py-2 text-slate-400">
                   <span className="px-2">
                     <FaGraduationCap className="text-[#00df9a]" size={25} />
                   </span>{" "}
                   Education
                 </h3>
-                <div className="flex justify-between pt-1">
+                <div className="block sm:flex sm:justify-between pt-1">
                   <p className="font-medium text-slate-300">
                     High School Diploma -{" "}
                     <span className="text-slate-300">
@@ -61,8 +62,8 @@ function About() {
                     2011 -2017 | Anambra State, Nigeria{" "}
                   </p>
                 </div>
-                <div className="pt-10">
-                  <h3 className="font-bold border-b text-xl flex items-center py-2 text-slate-300">
+                <div className="pt-8 sm:pt-10">
+                  <h3 className="font-bold border-b text-xl flex items-center py-2 text-slate-400">
                     <span className="px-2">
                       <FaCertificate className="text-[#00df9a]" />
                     </span>
@@ -88,40 +89,40 @@ function About() {
             </div>
 
             {/* profile */}
-            <div className="hidden lg:block py-10 md:py-0 md:mr-8 shadow-lg h-[500px]">
+            <div className="hidden lg:block py-10 md:py-0 md:mr-8 shadow-[0_0_10px_#00df9a] h-[520px]">
               <div className="w-full bg-gradient-to-t lg:absolute z-50 from-black md:w-[400px] md:h-[250px] rounded-t-lg"></div>
               <img
                 src={profil}
                 alt="my profile picture"
-                className=" w-full md:w-[400px] md:h-[250px] rounded-t-lg rounded-b-none relative"
+                className=" w-full md:w-[400px] md:h-[250px] rounded relative"
               />
 
-              <p className="flex items-center p-3 font-bold pt-8">
+              <p className="flex items-center p-3 font-bold pt-8 text-slate-300">
                 <span className="px-3">
                   <FaSuitcase className="text-[#00df9a]" size={20} />
                 </span>
                 Front-end Web Developer
               </p>
 
-              <p className="flex items-center p-3 font-bold">
+              <p className="flex items-center p-3 font-bold text-slate-300">
                 <span className="px-3">
-                  <FaHome />
+                  <FaHome className="text-[#00df9a]" size={20} />
                 </span>
                 Lagos, Nigeria
               </p>
-              <p className="flex items-center p-3 font-bold">
+              <p className="flex items-center p-3 font-bold text-slate-300">
                 <span className="px-3">
-                  <FaEnvelope />
+                  <FaEnvelope className="text-[#00df9a]" size={20} />
                 </span>
                 cosmasemmanuel40@gmail.com
               </p>
-              <p className="flex items-center p-3 font-bold">
+              <p className="flex items-center p-3 font-bold text-slate-300">
                 <span className="px-3">
-                  <FaPhone className="rotate-90" />
+                  <FaPhone className="rotate-90 text-[#00df9a]" size={20} />
                 </span>
                 +2347025769053 | +2349131941344
               </p>
-              <button className="bg-black rounded text-[#00df9a] px-4 py-2 w-full text-center font-bold mt-4">
+              <button className="text-black rounded bg-[#00df9a] px-4 py-2 w-full text-center font-bold mt-4">
                 Contact Me
               </button>
             </div>
@@ -129,9 +130,9 @@ function About() {
 
           {/* Work Experience */}
           <div className="my-8 py-8 px-6 shadow-sm w-full">
-            <h3 className="font-bold text-xl sm:text-2xl md:text-3xl capitalize flex items-start pb-4">
+            <h3 className="font-bold text-xl sm:text-2xl text-slate-400 md:text-3xl capitalize flex items-center pb-4">
               <span className="px-3">
-                <FaSuitcase />
+                <FaSuitcase className="text-[#00df9a]" size={30} />
               </span>
               Professional Experience
             </h3>
@@ -139,7 +140,7 @@ function About() {
 
             <div className="block md:flex md:flex-row-reverse md:justify-between md:items-center gap-10">
               <div className="lg:w-[50%]">
-                <p className="font-medium text-gray-700 text-xl">
+                <p className="font-medium text-slate-300 text-xl">
                   <em>
                     Front-end Developer | Logiflex Tech, Ikeja, Lagos, Nigeria
                   </em>
@@ -153,7 +154,7 @@ function About() {
                     present
                   </b>
                 </h5>
-                <ul className="pb-10 md:pb-0 font-medium text-gray-700">
+                <ul className="pb-10 md:pb-0 font-medium text-gray-300">
                   <li className="py-2">
                     - Developed a responsive and user-friendly offline (P2P)
                     pharmaceutical retail app for pharmacies to easily sell
@@ -178,7 +179,7 @@ function About() {
                 </ul>
               </div>
               <div className="lg:w-[50%]">
-                <p className="font-medium text-gray-700 text-xl">
+                <p className="font-medium text-slate-300 text-xl">
                   <em>
                     Front-end Developer ( Intern ) | Netop Business Consulting
                     Limited, Ikeja, Lagos, Nigeria
@@ -190,7 +191,7 @@ function About() {
                   </span>
                   Feb 2021 – Mar 2022
                 </h5>
-                <ul className="font-medium text-gray-700">
+                <ul className="font-medium text-gray-300">
                   <li className="py-2">
                     - Worked closely with the development team to ensure a
                     smooth transition from web to mobile, gaining valuable
@@ -216,10 +217,12 @@ function About() {
                   </li> */}
                 </ul>
               </div>
+              {/* <div className="home"></div> */}
             </div>
           </div>
         </div>
       </div>
+      <div className="border-b border-slate-800 mx-4 z-50"></div>
     </>
   );
 }

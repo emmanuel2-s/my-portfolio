@@ -1,8 +1,9 @@
 import React from "react";
 import Typed from "react-typed";
 import star from "../assets/img/star.png";
-import profile from "../assets/img/3d-graphic-designer 1.png";
-import profil from "../assets/img/handsome_man.jpg";
+import profile from "../assets/img/result (2).png";
+// import profile from "../assets/img/3d-graphic-designer 1.png";
+import profil from "../assets/img/snapchat.jpg";
 import starpu from "../assets/img/star pu.png";
 import satagra from "../assets/img/sata gra.png";
 import {
@@ -18,29 +19,14 @@ import { MdFacebook, MdOutlineArrowDownward } from "react-icons/md";
 function Hero() {
   return (
     <>
-      <div className="home"></div>
-      <div className="hty pt-16 md:pt-20 w-full max-w-[1440px] mx-auto h-full md:py-20 block md:flex md:flex-row-reverse md:justify-around">
+      <div className="hty pt-16 md:pt-32 w-full max-w-[1440px] mx-auto h-full md:py-20 md:flex md:flex-row-reverse md:justify-around">
         <div className="relative">
+          <div className="hidden w-full absolute md:block bg-gradient-to-t lg:absolute z-30 from-black h-full lg:w-[600px] lg:h-[600px] rounded-t-lg"></div>
           <img
             src={profile}
             alt="/"
-            // width={400}
-            className=" hidden md:block flex-shrink-0"
-          />
-          <img
-            src={starpu}
-            alt="/"
-            className="hidden lg:block md:absolute md:top-44 md:left-32 animate-ping"
-          />
-          <img
-            src={star}
-            alt="/"
-            className="hidden lg:block md:absolute md:left-72 bottom-10 animate-pulse"
-          />
-          <img
-            src={satagra}
-            alt="/"
-            className="hidden lg:block md:absolute md:top-72 md:left-[72%] md:w-7"
+            width={600}
+            className=" hidden md:flex flex-shrink-0 lg:h-[600px]"
           />
           <img
             src={profil}
@@ -71,7 +57,7 @@ function Hero() {
                 loop
               />
             </div>
-            <p className="hidden lg:block lg:w-[600px] text-gray-300 leading-tight text-lg">
+            <p className="hidden lg:block md:w-full lg:w-[500px] xl:w-[600px] text-gray-300 leading-tight text-lg">
               I'm a Nigerian based web designer & front‑end web developer
               focused on crafting clean & user‑friendly experiences, I am
               passionate about building excellent software that will bring a
@@ -104,6 +90,7 @@ function Hero() {
         </div>
         {/* <a href='#about' className='text-white border-4 border-[#00df9a] rounded-full p-3 animate-bounce mx-auto'><MdOutlineArrowDownward className='text-5xl' /></a> */}
       </div>
+      <div className="border-b border-slate-800 mx-4 z-50"></div>
     </>
   );
 }
