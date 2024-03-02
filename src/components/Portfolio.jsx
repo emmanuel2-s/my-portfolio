@@ -40,7 +40,7 @@ function Portfolio() {
                   className="h-52 rounded w-full group-hover:border-4 group-hover:border-[#00df9a] group-hover:shadow-[0_0_10px_#00df9a]"
                 />
 
-                <div className=" bg-[#00df9a]/80 py-4 absolute w-full md:w-[325px] top-[148px] hidden group-hover:block">
+                <div className=" bg-[#00df9a]/80 py-4 absolute w-full md:max-w-[325px] top-[148px] hidden md:group-hover:block">
                   <div className="flex justify-between items-center font-bold text-4xl px-8">
                     <a
                       href={data.link1}
