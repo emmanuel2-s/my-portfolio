@@ -46,10 +46,19 @@ h1,
 } */
 
 .mis li {
-  list-style-image: url(./assets/img/list\ terms.png);
+  list-style-image: url(/list\ terms.png);
 
 }
 
+.modal-content, .title, .caption{
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from{transform: scale(0);}
+  to{transform: scale(1);}
+}
 @media (min-width:640px) {
   .hty {
       -webkit-animation: animatezoom 2s;

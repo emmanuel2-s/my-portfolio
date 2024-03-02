@@ -36,10 +36,13 @@ function NavBar() {
             <li className="px-7 font-medium text-base hover:text-[#00df9a] transition-all">
               <a href="#contact">Contact</a>
             </li>
-            <li className="px-10 cursor-pointer font-medium text-base hover:text-[#00df9a] transition-all  border-[#00df9a] p-3 border-4 rounded-lg hover:shadow-[0_0_10px_#00df9a]">
-              {" "}
+            <a
+              href="https://drive.google.com/file/d/1KOvJGNGBInBCJ3FsL4IEVtyC7RQrfYnB/view?usp=sharing"
+              target="_blank"
+              className="px-10 cursor-pointer font-medium text-base hover:text-[#00df9a] transition-all  border-[#00df9a] p-3 border-4 rounded-lg hover:shadow-[0_0_10px_#00df9a]"
+            >
               Resume
-            </li>
+            </a>
           </ul>
           <div className="block md:hidden" onClick={handleNav}>
             {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
@@ -76,6 +79,15 @@ function NavBar() {
               <a href="#contact">Contact</a>
             </li>
             <li className="p-4 font-medium"></li>
+
+            <li className="px-10 cursor-pointer font-medium text-base hover:text-[#00df9a] transition-all  border-[#00df9a] p-3 border-4 rounded-lg hover:shadow-[0_0_10px_#00df9a]">
+              <a
+                href="https://drive.google.com/file/d/1KOvJGNGBInBCJ3FsL4IEVtyC7RQrfYnB/view?usp=sharing"
+                target="_blank"
+              >
+                Resume
+              </a>
+            </li>
           </ul>
         </div>
       </nav>

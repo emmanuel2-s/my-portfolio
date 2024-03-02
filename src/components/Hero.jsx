@@ -4,8 +4,6 @@ import star from "../assets/img/star.png";
 import profile from "../assets/img/result (2).png";
 // import profile from "../assets/img/3d-graphic-designer 1.png";
 import profil from "../assets/img/snapchat.jpg";
-import starpu from "../assets/img/star pu.png";
-import satagra from "../assets/img/sata gra.png";
 import {
   AiFillFacebook,
   AiFillGithub,

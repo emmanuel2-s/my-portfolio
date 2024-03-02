@@ -75,16 +75,19 @@ function About() {
                 </div>
               </div>
 
-              <button
-                id="btn"
-                className="group hover:shadow-[0_0_10px_#00df9a] text-slate-300 text-center border-4 border-[#00df9a] hover:text-[#00df9a] rounded py-3 px-3 font-semibold mt-10 text-lg flex justify-center items-center mx-auto md:mx-0"
-              >
-                {" "}
-                <AiOutlineDownload
-                  className="group-hover:animate-bounce"
-                  size={25}
-                />{" "}
-                <span className="px-2">Download Resume</span>
+              <button>
+                <a
+                  href="./assets/Enunwa-Emmanuel-Resume-2.pdf"
+                  id="btn"
+                  download="Emmanuel Resume.pdf"
+                  className="group hover:shadow-[0_0_10px_#00df9a] text-slate-300 text-center border-4 border-[#00df9a] hover:text-[#00df9a] rounded py-3 px-3 font-semibold mt-10 text-lg flex justify-center items-center mx-auto md:mx-0"
+                >
+                  <AiOutlineDownload
+                    className="group-hover:animate-bounce"
+                    size={25}
+                  />
+                  <span className="px-2">Download Resume</span>
+                </a>
               </button>
             </div>
 
