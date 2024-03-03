@@ -4,6 +4,8 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Skill from "../components/Skill";
 import Portfolio from "../components/Portfolio";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 function RouterPage() {
   return (
@@ -13,6 +15,8 @@ function RouterPage() {
       <About />
       <Skill />
       <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   );
 }

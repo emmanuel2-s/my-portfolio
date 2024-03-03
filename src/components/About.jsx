@@ -17,7 +17,7 @@ function About() {
   return (
     <>
       <div className="w-full py-8">
-        <div className="max-w-[1440px] mx-auto" id="about">
+        <div className="max-w-[1440px] mx-auto w-full px-3" id="about">
           <h1 className="text-[#00df9a] text-center md:text-left text-4xl md:text-4xl font-extrabold px-3">
             About Me
           </h1>

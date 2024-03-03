@@ -53,7 +53,7 @@ function NavBar() {
         <div
           className={
             nav
-              ? "fixed md:hidden top-0 left-0 z-50 bg-[#000300] border-r border-r-gray-900 w-[300px] h-full ease-in-out delay-300 duration-500"
+              ? "fixed md:hidden top-0 left-0 z-[100] bg-[#000300] border-r border-r-gray-900 w-[300px] h-full ease-in-out delay-300 duration-500"
               : "fixed left-[-100%] transition-all"
           }
           id="mobile-div"

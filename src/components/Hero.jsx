@@ -62,7 +62,12 @@ function Hero() {
               solution to a problem .
             </p>
             <button className="group bg-[#00df9a] text-center text-black rounded py-3 px-3 font-semibold md:mt-10 text-lg w-full md:w-44 hover:shadow-[0_0_10px_#00df9a] ">
-              <span className="px-2 group-hover:text-white">Lets Talk</span>
+              <a
+                href="#contact"
+                className="px-2 group-hover:text-white decoration-transparent"
+              >
+                Lets Talk
+              </a>
             </button>
           </div>
           <div className="text-white text-3xl flex justify-center md:justify-normal pt-20 md:pt-16">
