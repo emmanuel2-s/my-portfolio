@@ -32,13 +32,13 @@ function Contact() {
     <>
       <div className="max-w-[1440px] w-full mx-auto md:mt-20 py-4 px-4">
         <h1
-          className="text-[#00df9a] text-center md:text-left text-4xl font-bold my-6"
+          className="text-[#00df9a] text-center md:text-left text-4xl font-bold my-6 px-3"
           id="contact"
         >
           Contact Me
         </h1>
 
-        <div className="block md:flex md:justify-between md:items-center max-w-[1340px] w-full mx-auto space-y-3">
+        <div className="block md:flex md:justify-between md:items-center space-y-3 px-4 sm:px-0">
           <div className="w-full">
             <h4 className="text-slate-400 text-xl font-bold py-4">
               I' ll be thrilled to have you connect with me!
@@ -89,7 +89,7 @@ function Contact() {
             </form>
           </div>
 
-          <div className="hidden lg:block py-8 shadow-[0_0_10px_#00df9a]">
+          <div className="hidden lg:block py-8 shadow-[0_0_10px_#00df9a] px-4 sm:px-2">
             <p className="flex items-center p-3 font-bold text-slate-300">
               <span className="px-3">
                 <FaSuitcase className="text-[#00df9a]" size={20} />
@@ -142,6 +142,20 @@ function Contact() {
             </div>
           </div>
         </div>
+        {/* <div class="relative">
+          <input
+            type="text"
+            id="floating_filled"
+            class="block rounded-t-lg px-2.5 pb-2.5 pt-5 w-full text-sm text-gray-900 bg-gray-50 dark:bg-gray-700 border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+            placeholder=" "
+          />
+          <label
+            for="floating_filled"
+            class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] start-2.5 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+          >
+            Floating filled
+          </label>
+        </div> */}
       </div>
       {/* </div> */}
     </>

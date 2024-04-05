@@ -5,7 +5,7 @@ function Skill() {
     <>
       <div
         id="skill"
-        className="text-white max-w-[1440px] mx-auto py-10 mt-20 box-border w-full px-3"
+        className="text-white max-w-[1440px] mx-auto py-10 sm:mt-20 box-border w-full px-3"
       >
         <h1 className="text-4xl text-[#00df9a] text-center sm:text-left">
           Skills

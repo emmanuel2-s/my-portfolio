@@ -44,7 +44,7 @@ function About() {
             About Me
           </h1>
           {/* <div className="border-b-4 border-black w-20"></div> */}
-          <div className="visible grid md:flex md:justify-between py shadow-sm mt-1">
+          <div className="visible grid md:flex md:justify-between space-x-6 gap-6 shadow-sm mt-1">
             <div className=" md:px-6 py-4 px-3 w-full lg:w-3/5">
               <div className="flex justify-center items-center md:justify-start py-3">
                 <AiFillProfile className="f text-[#00df9a]" size={30} />
@@ -163,11 +163,12 @@ function About() {
             </h3>
             {/* <div className="border-b-4 border-black w-20 mb-3"></div> */}
 
-            <div className="block md:flex md:flex-row-reverse md:justify-between md:items-center gap-10">
+            <div className="block md:flex md:flex-row-reverse md:justify-between md:items-center md:gap-20">
               <div className="lg:w-[50%]">
                 <p className="font-medium text-slate-300 text-xl">
                   <em>
-                    Front-end Developer | Logiflex Tech, Ikeja, Lagos, Nigeria
+                    Front-end Web Developer | Logiflex Technology, Ikeja, Lagos,
+                    Nigeria
                   </em>
                 </p>
                 <h5 className="flex items-center pt-3 font-bold text-lg py-2 text-[#00df9a]">
@@ -179,26 +180,27 @@ function About() {
                     present
                   </b>
                 </h5>
-                <ul className="pb-10 md:pb-0 font-medium text-gray-300">
+                <ul className="pb-10 md:pb-0 font-medium text-gray-300 list-disc">
                   <li className="py-2">
-                    - Developed a responsive and user-friendly offline (P2P)
+                    Developed a responsive and user-friendly offline (P2P)
                     pharmaceutical retail app for pharmacies to easily sell
                     products and keep track of products sold.
                   </li>
                   <li className="py-2">
-                    - Pioneered the adoption of Tailwind and Bootstrap,
+                    Pioneered the adoption of Tailwind and Bootstrap,
                     streamlining the styling process and ensuring a consistent
                     and polished application aesthetic.
                   </li>
                   <li className="py-2">
-                    - Converted a ReactJS web application into a mobile
+                    Converted a ReactJS web application into a mobile
                     application utilizing Capacitor JS.
                   </li>
                   <li className="py-2">
-                    - Developed an offline web and mobile application{" "}
+                    Developed a standalone desktop application which runs
+                    independently without needing the web browser.
                   </li>
                   <li className="py-2">
-                    - Developed a user-friendly movie web application utilizing
+                    Developed a user-friendly movie web application utilizing
                     Next Js, Tailwind, and Firebase.
                   </li>
                 </ul>
@@ -206,8 +208,8 @@ function About() {
               <div className="lg:w-[50%]">
                 <p className="font-medium text-slate-300 text-xl">
                   <em>
-                    Front-end Developer ( Intern ) | Netop Business Consulting
-                    Limited, Ikeja, Lagos, Nigeria
+                    Front-end Web Developer ( Intern ) | Netop Business
+                    Consulting Limited, Ikeja, Lagos, Nigeria
                   </em>
                 </p>
                 <h5 className="flex items-center pt-3 font-bold text-lg py-2 text-[#00df9a]">
@@ -216,22 +218,22 @@ function About() {
                   </span>
                   Feb 2021 – Mar 2022
                 </h5>
-                <ul className="font-medium text-gray-300">
+                <ul className="font-medium text-gray-300 list-disc">
                   <li className="py-2">
-                    - Worked closely with the development team to ensure a
-                    smooth transition from web to mobile, gaining valuable
-                    hands-on experience in web application development.
+                    Worked closely with the development team to ensure a smooth
+                    transition from web to mobile, gaining valuable hands-on
+                    experience in web application development.
                   </li>
                   <li className="py-2">
-                    - Engaged clients in a collaborative development process.
+                    Engaged clients in a collaborative development process.
                   </li>
                   <li className="py-2">
-                    - Built an e-commerce website where I designed, built, and
+                    Built an e-commerce website where I designed, built, and
                     maintained code using Javascript, HTML, and CSS with
                     LocalStorage to store the data and publish it using Netlify.
                   </li>
                   <li className="py-2">
-                    - Applied mastery of HTML and CSS3 to translate intricate
+                    Applied mastery of HTML and CSS3 to translate intricate
                     designs into pixel-perfect, aesthetically pleasing
                     interfaces.
                   </li>
