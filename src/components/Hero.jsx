@@ -1,7 +1,8 @@
 import React from "react";
 import Typed from "react-typed";
 import star from "../assets/img/star.png";
-import profile from "../assets/img/result (2).png";
+// import profile from "../assets/img/result (2).png";
+import profile from "../assets/img/black me.jpg";
 // import profile from "../assets/img/3d-graphic-designer 1.png";
 import profil from "../assets/img/snapchat.jpg";
 import {
@@ -17,14 +18,14 @@ import { MdFacebook, MdOutlineArrowDownward } from "react-icons/md";
 function Hero() {
   return (
     <>
-      <div className="hty pt-16 md:pt-32 w-full max-w-[1440px] mx-auto h-full md:py-20 md:flex md:flex-row-reverse md:justify-around">
+      <div className="hty pt-16 md:pt-32 w-full max-w-[1440px] mx-auto h-full md:py-20 md:flex md:flex-row-reverse md:justify-between md:pr-8">
         <div className="relative">
-          <div className="hidden w-full absolute md:block bg-gradient-to-t lg:absolute z-30 from-black h-full lg:w-[600px] lg:h-[600px] rounded-t-lg"></div>
+          {/* <div className="hidden w-full absolute md:block bg-gradient-to-t lg:absolute z-30 from-black h-full lg:w-[500px] lg:h-[600px] rounded-t-lg"></div> */}
           <img
             src={profile}
             alt="/"
-            width={600}
-            className=" hidden md:flex flex-shrink-0 lg:h-[600px]"
+            width={500}
+            className=" hidden md:flex flex-shrink-0 lg:h-[600px] rounded-md brightness-75"
           />
           <img
             src={profil}

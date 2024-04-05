@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 // import profil from "../assets/img/photo.jpg";
 import profil from "../assets/img/snapchat.jpg";
 import { AiFillProfile, AiOutlineDownload } from "react-icons/ai";
@@ -14,15 +14,37 @@ import {
 } from "react-icons/fa";
 
 function About() {
+  // const [visible, setVisible] = useState(false);
+  // const ref = useRef();
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver((entries) => {
+  //     entries.forEach(
+  //       (entry) => {
+  //         if (entry.isIntersecting) {
+  //           // setVisible(true);
+  //           entry.target.classList.add("visible");
+  //         } else {
+  //           entry.target.classList.remove("visible");
+  //         }
+  //       },
+  //       { threshold: 0.5 }
+  //     );
+  //   });
+
+  //   observer.observe(ref.current);
+
+  //   return () => observer.disconnect(); // Cleanup on component unmount
+  // }, []);
+
   return (
     <>
-      <div className="w-full py-8">
+      <div className="w-full py-8 mt-20">
         <div className="max-w-[1440px] mx-auto w-full px-3" id="about">
           <h1 className="text-[#00df9a] text-center md:text-left text-4xl md:text-4xl font-extrabold px-3">
             About Me
           </h1>
           {/* <div className="border-b-4 border-black w-20"></div> */}
-          <div className="grid md:flex md:justify-between py-10 shadow-sm mt-1">
+          <div className="visible grid md:flex md:justify-between py shadow-sm mt-1">
             <div className=" md:px-6 py-4 px-3 w-full lg:w-3/5">
               <div className="flex justify-center items-center md:justify-start py-3">
                 <AiFillProfile className="f text-[#00df9a]" size={30} />
@@ -53,7 +75,7 @@ function About() {
                 </h3>
                 <div className="block sm:flex sm:justify-between pt-1">
                   <p className="font-medium text-slate-300">
-                    High School Diploma -{" "}
+                    High School Diploma
                     <span className="text-slate-300">
                       Christ The King Seminary School
                     </span>

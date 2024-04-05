@@ -27,8 +27,8 @@ function Portfolio() {
 
   return (
     <>
-      <div className="text-slate-300 pt-8 text-center sm:text-left max-w-[1440px] w-full mx-auto px-4 md:px-0">
-        <h1 className="text-[#00df9a] text-4xl font-bold" id="portfolio">
+      <div className="text-slate-300 pt-8 text-center sm:text-left max-w-[1440px] w-full mx-auto px-3">
+        <h1 className="text-[#00df9a] text-4xl font-bold py-8" id="portfolio">
           Portfolio/works
         </h1>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:gap-0 lg:gap-6">
@@ -44,11 +44,12 @@ function Portfolio() {
                   className="h-auto md:h-52 w-full block rounded group-hover:border-4 group-hover:border-[#00df9a] group-hover:shadow-[0_0_10px_#00df9a] duration-300 delay-100"
                 />
 
-                <div className=" bg-[#00df9a]/80 transition ease-in-out duration-300 delay-100 py-4 absolute md:max-w-[500px] lg:max-w-[700px] md:w-[325px] overflow-hidden top-[148px] hidden md:group-hover:block">
+                <div className=" bg-[#00df9a]/80 transition ease-in-out duration-300 delay-100 py-4 absolute md:max-w-[500px] lg:max-w-[700px] md:w-[320px] overflow-hidden top-[148px] hidden md:group-hover:block">
                   <div className="flex justify-between items-center font-bold text-4xl px-8">
                     <a
                       href={data.link1}
                       target="_blank"
+                      title="Website"
                       className="decoration-transparent text-white hover:text-opacity-80"
                     >
                       <FaLink className="" />
@@ -56,6 +57,7 @@ function Portfolio() {
                     <a
                       href={data.link2}
                       target="_blank"
+                      title="Github"
                       className="decoration-transparent text-white hover:text-opacity-80"
                     >
                       <AiFillGithub />

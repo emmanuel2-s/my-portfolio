@@ -30,7 +30,7 @@ function Contact() {
 
   return (
     <>
-      <div className="max-w-[1440px] w-full mx-auto md:mt-24 py-4 px-4">
+      <div className="max-w-[1440px] w-full mx-auto md:mt-20 py-4 px-4">
         <h1
           className="text-[#00df9a] text-center md:text-left text-4xl font-bold my-6"
           id="contact"
