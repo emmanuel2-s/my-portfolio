@@ -7,11 +7,13 @@ function Skill() {
         id="skill"
         className="text-white max-w-[1440px] mx-auto py-10 sm:mt-20 box-border w-full px-3"
       >
-        <h1 className="text-4xl text-[#00df9a] text-center sm:text-left">
-          Skills
-        </h1>
-        <div className="grid gap-y-8 md:grid-cols-3 md:gap-10 mt-10 md:gap-y-0">
-          <div className="border-4 border-[#00df9a] w-9/12 mx-auto shadow-[0_0_10px_#00df9a] rounded py-6 hover:scale-105 duration-500 delay-100">
+        <div className="flex justify-center md:justify-start">
+          <h1 className="text-4xl text-[#00df9a] text-center md:text-left sm:text-left px-4">
+            Skills
+          </h1>
+        </div>
+        <div className="grid gap-y-8 md:grid-cols-2 lg:grid-cols-3 md:gap-10 mt-10 md:gap-y-8">
+          <div className="border-4 border-[#00df9a] w-7/12  md:w-9/12 mx-auto shadow-[0_0_10px_#00df9a] rounded py-6 hover:scale-105 duration-500 delay-100">
             <div className="">
               <h4 className="text-gray-400 font-bold text-center text-2xl pb-10 capitalize">
                 Programming Language
@@ -36,7 +38,7 @@ function Skill() {
             </div>
           </div>
 
-          <div className="border-4 border-[#00df9a] w-9/12 mx-auto shadow-[0_0_10px_#00df9a] rounded py-6 hover:scale-105 duration-500 delay-100">
+          <div className="border-4 border-[#00df9a] w-7/12  md:w-9/12 mx-auto shadow-[0_0_10px_#00df9a] rounded py-6 hover:scale-105 duration-500 delay-100">
             <div className="">
               <h4 className="text-gray-400 font-bold text-center text-2xl pb-10 capitalize">
                 Frameworks
@@ -64,7 +66,7 @@ function Skill() {
             </div>
           </div>
 
-          <div className="border-4 border-[#00df9a] w-9/12 mx-auto shadow-[0_0_10px_#00df9a] rounded py-6 hover:scale-105 duration-500 delay-100">
+          <div className="border-4 border-[#00df9a] w-7/12  md:w-9/12 mx-auto shadow-[0_0_10px_#00df9a] rounded py-6 hover:scale-105 duration-500 delay-100">
             <div className="md:px-2">
               <h4 className="text-gray-400 font-bold text-center text-2xl pb-10">
                 Version Controls & Tech Tool

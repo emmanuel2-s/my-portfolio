@@ -27,14 +27,20 @@ function Portfolio() {
 
   return (
     <>
-      <div className="text-slate-300 pt-8 text-center sm:text-left max-w-[1440px] w-full mx-auto px-3">
-        <h1 className="text-[#00df9a] text-4xl font-bold py-8" id="portfolio">
-          Portfolio/works
-        </h1>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:gap-0 lg:gap-6">
+      <div className="border-slate-700 border-t pt-8 text-center sm:text-left max-w-[1440px] w-full mx-auto px-3">
+        <div className=""></div>
+        <div className="flex justify-center sm:text-left">
+          <h1
+            className="text-[#00df9a] text-4xl md:text-5xl font-bold py-8"
+            id="portfolio"
+          >
+            Portfolio/works
+          </h1>
+        </div>
+        <div className="grid sm:grid-cols-2 flex-shrink-0 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-4 lg:gap-6">
           {dataImage.map((data, index) => (
             <div key={data.title}>
-              <div className=" group w-full md:max-w-[500px] lg:max-w-[700px] inline-block p-2 cursor-pointer  hover:scale-110 duration-300 delay-100 relative">
+              <div className=" group w-full flex-shrink-0 sm:w-11/12 lg:w-full inline-block p-2 cursor-pointer  hover:scale-110 duration-300 delay-100 relative">
                 {/* <div className="bg-black/20 absolute w-full h-full top-0 left-0"></div> */}
                 <img
                   src={data.img}
@@ -44,7 +50,7 @@ function Portfolio() {
                   className="h-auto md:h-52 w-full block rounded group-hover:border-4 group-hover:border-[#00df9a] group-hover:shadow-[0_0_10px_#00df9a] duration-300 delay-100"
                 />
 
-                <div className=" bg-[#00df9a]/80 transition ease-in-out duration-300 delay-100 py-4 absolute md:max-w-[500px] lg:max-w-[700px] md:w-[320px] overflow-hidden top-[148px] hidden md:group-hover:block">
+                <div className=" bg-[#00df9a]/80 transition ease-in-out duration-300 delay-100 py-4  overflow-hidden">
                   <div className="flex justify-between items-center font-bold text-4xl px-8">
                     <a
                       href={data.link1}

@@ -40,19 +40,19 @@ function About() {
     <>
       <div className="w-full py-8 mt-20">
         <div className="max-w-[1440px] mx-auto w-full px-3" id="about">
-          <h1 className="text-[#00df9a] text-center md:text-left text-4xl md:text-4xl font-extrabold px-3">
+          <h1 className="text-[#00df9a] text-center md:text-left text-4xl md:text-5xl font-extrabold px-3">
             About Me
           </h1>
           {/* <div className="border-b-4 border-black w-20"></div> */}
           <div className="visible grid md:flex md:justify-between space-x-6 gap-6 shadow-sm mt-1">
             <div className=" md:px-6 py-4 px-3 w-full lg:w-3/5">
-              <div className="flex justify-center items-center md:justify-start py-3">
+              <div className="flex justify-start items-center md:justify-start py-3">
                 <AiFillProfile className="f text-[#00df9a]" size={30} />
                 <h3 className="text-2xl md:text-2xl font-bold px-2 text-slate-400">
                   Key summary
                 </h3>
               </div>
-              <p className="f font-sans font-medium text-center text-slate-300 md:text-left flex flex-wrap leading-6 w-full">
+              <p className="f font-sans font-medium text-left text-slate-300 flex flex-wrap leading-tight w-full">
                 Detail-oriented and creative Front-End Developer with three
                 years of hands-on experience in crafting visually appealing and
                 responsive web applications. Proficient in HTML, CSS3,
@@ -60,7 +60,7 @@ function About() {
                 Node.js. Adept at translating design concepts into efficient,
                 user-friendly interfaces.
               </p>
-              <p className="font-sans text-center md:text-left font-medium text-slate-300 w-full pb-5">
+              <p className="font-sans text-left font-medium text-slate-300 w-full pb-5">
                 I'm a Nigerian based web designer & front‑end web developer
                 focused on crafting clean & user‑friendly experiences, I am
                 passionate about building excellent software that will bring a
@@ -114,12 +114,12 @@ function About() {
             </div>
 
             {/* profile */}
-            <div className="hidden lg:block py-10 md:py-0 md:mr-8 shadow-[0_0_10px_#00df9a] h-[520px]">
-              <div className="w-full bg-gradient-to-t lg:absolute z-50 from-black md:w-[400px] md:h-[250px] rounded-t-lg"></div>
+            <div className="hidden md:block py-10 md:py-0 md:mr-8 shadow-[0_0_10px_#00df9a] h-full">
+              {/* <div className="w-full bg-gradient-to-t lg:absolute z-50 from-black md:w-[400px] md:h-[250px] rounded-t-lg"></div> */}
               <img
                 src={profil}
                 alt="my profile picture"
-                className=" w-full md:w-[400px] md:h-[250px] rounded relative"
+                className=" w-full md:w-[400px] md:h-[250px] rounded relative brightness-75"
               />
 
               <p className="flex items-center p-3 font-bold pt-8 text-slate-300">
@@ -147,9 +147,9 @@ function About() {
                 </span>
                 +2347025769053 | +2349131941344
               </p>
-              <button className="text-black rounded bg-[#00df9a] px-4 py-2 w-full text-center font-bold mt-4">
+              {/* <button className="text-black rounded bg-[#00df9a] px-4 py-2 w-full text-center font-bold mt-4">
                 Contact Me
-              </button>
+              </button> */}
             </div>
           </div>
 

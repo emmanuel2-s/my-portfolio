@@ -30,7 +30,7 @@ function Contact() {
 
   return (
     <>
-      <div className="max-w-[1440px] w-full mx-auto md:mt-20 py-4 px-4">
+      <div className="max-w-[1440px] w-full mx-auto md:mt-20 py-4 px-4 border-t border-slate-700">
         <h1
           className="text-[#00df9a] text-center md:text-left text-4xl font-bold my-6 px-3"
           id="contact"
@@ -39,7 +39,7 @@ function Contact() {
         </h1>
 
         <div className="block md:flex md:justify-between md:items-center space-y-3 px-4 sm:px-0">
-          <div className="w-full">
+          <div className="w-full mb-8">
             <h4 className="text-slate-400 text-xl font-bold py-4">
               I' ll be thrilled to have you connect with me!
             </h4>
@@ -89,7 +89,7 @@ function Contact() {
             </form>
           </div>
 
-          <div className="hidden lg:block py-8 shadow-[0_0_10px_#00df9a] px-4 sm:px-2">
+          <div className="block md:hidden lg:block py-8 shadow-[0_0_10px_#00df9a] px-4 sm:px-2 rounded-lg">
             <p className="flex items-center p-3 font-bold text-slate-300">
               <span className="px-3">
                 <FaSuitcase className="text-[#00df9a]" size={20} />

@@ -2,7 +2,7 @@ import React from "react";
 import Typed from "react-typed";
 import star from "../assets/img/star.png";
 // import profile from "../assets/img/result (2).png";
-import profile from "../assets/img/black me.jpg";
+import profile from "../assets/img/circle.svg";
 // import profile from "../assets/img/3d-graphic-designer 1.png";
 import profil from "../assets/img/snapchat.jpg";
 import {
@@ -21,16 +21,17 @@ function Hero() {
       <div className="hty pt-16 md:pt-32 w-full max-w-[1440px] mx-auto h-full md:py-20 md:flex md:flex-row-reverse md:justify-between md:pr-8">
         <div className="relative">
           {/* <div className="hidden w-full absolute md:block bg-gradient-to-t lg:absolute z-30 from-black h-full lg:w-[500px] lg:h-[600px] rounded-t-lg"></div> */}
+
           <img
             src={profile}
             alt="/"
             width={500}
-            className=" hidden md:flex flex-shrink-0 lg:h-[600px] rounded-md brightness-75"
+            className=" hidden md:flex flex-shrink-0 lg:h-[600px] rounded-md hover:animate-spin"
           />
           <img
             src={profil}
             alt="my profile picture"
-            className="rounded-full border-8 border-[#00df9a] w-[400px] h-[400px] block md:hidden mx-auto animate-pulse"
+            className="rounded-full border-8 border-[#00df9a] w-[400px] h-[400px] block md:hidden mx-auto"
           />
         </div>
 
@@ -40,7 +41,8 @@ function Hero() {
               HELLO,
             </h1>
             <h2 className="text-center font-extrabold leading-10 text-4xl sm:text-4xl sm:text-left  lg:text-6xl text-slate-300 py-3">
-              I'M ENUNWA EMMANUEL.
+              I'M ENUNWA <br className="hidden md:block" />
+              EMMANUEL.
             </h2>
 
             <div className="text-gray-300 flex justify-center items-center font-bold pb-10 md:pb-0">
