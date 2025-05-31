@@ -16,7 +16,7 @@ function NavBar() {
     <>
       <nav>
         {/* desktop menu */}
-        <div className="text-white flex justify-between h-20 py-2 max-w-[1640px] mx-auto items-center px-4 z-[100] fixed w-full bg-black/70 top-0">
+        <div className="text-white flex justify-between h-20 py-2 container mx-auto items-center px-4 z-[100] fixed w-full bg-black/70 top-0">
           <a
             href="#"
             className="w-full decoration-transparent z-10 font-bold text-4xl md:text-4xl text-[#00df9a] uppercase"

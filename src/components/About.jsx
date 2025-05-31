@@ -39,8 +39,8 @@ function About() {
   return (
     <>
       <div className="w-full py-8 mt-20">
-        <div className="max-w-[1440px] mx-auto w-full px-3" id="about">
-          <h1 className="text-[#00df9a] text-center md:text-left text-4xl md:text-5xl font-extrabold px-3">
+        <div className="container mx-auto w-full px-3" id="about">
+          <h1 className="text-[#00df9a] text-center md:text-left text-4xl md:text-5xl font-bold px-3">
             About Me
           </h1>
           {/* <div className="border-b-4 border-black w-20"></div> */}
@@ -99,7 +99,7 @@ function About() {
 
               <button>
                 <a
-                  href="./assets/Enunwa-Emmanuel-Resume-2.pdf"
+                  href="./assets/Emmanuel_Resume_Frontend_Web_Developer.pdf"
                   id="btn"
                   download="Emmanuel Resume.pdf"
                   className="group hover:shadow-[0_0_10px_#00df9a] text-slate-300 text-center border-4 border-[#00df9a] hover:text-[#00df9a] rounded py-3 px-3 font-semibold mt-10 text-lg flex justify-center items-center mx-auto md:mx-0"

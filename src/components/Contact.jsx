@@ -30,9 +30,9 @@ function Contact() {
 
   return (
     <>
-      <div className="max-w-[1440px] w-full mx-auto md:mt-20 py-4 px-4 border-t border-slate-700">
+      <div className="w-full container mx-auto md:mt-20 py-4 px-4 border-t border-slate-700">
         <h1
-          className="text-[#00df9a] text-center md:text-left text-4xl font-bold my-6 px-3"
+          className="text-[#00df9a] text-center text-4xl font-bold my-6 px-3"
           id="contact"
         >
           Contact Me

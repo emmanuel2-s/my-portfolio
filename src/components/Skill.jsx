@@ -5,12 +5,13 @@ function Skill() {
     <>
       <div
         id="skill"
-        className="text-white max-w-[1440px] mx-auto py-10 sm:mt-20 box-border w-full px-3"
+        className="text-white container mx-auto py-10 sm:mt-20 box-border w-full px-3"
       >
-        <div className="flex justify-center md:justify-start">
-          <h1 className="text-4xl text-[#00df9a] text-center md:text-left sm:text-left px-4">
+        <div className="flex justify-center flex-col relative">
+          <h1 className="text-4xl md:text-5xl text-[#00df9a] text-center px-4 ">
             Skills
           </h1>
+          <div className="absolute border-b-4 border-[#00df9a] top-6 left-[47%] bottom-0 w-24 h-6"></div>
         </div>
         <div className="grid gap-y-8 md:grid-cols-2 lg:grid-cols-3 md:gap-10 mt-10 md:gap-y-8">
           <div className="border-4 border-[#00df9a] w-7/12  md:w-9/12 mx-auto shadow-[0_0_10px_#00df9a] rounded py-6 hover:scale-105 duration-500 delay-100">
@@ -96,29 +97,23 @@ function Skill() {
         </div>
 
         <div className="mt-10 flex justify-center flex-col">
-          <h4 className="text-[#00df9a] text-lg sm:text-3xl pb-3 text-center">
-            Miscellaneous
+          <h4 className="text-[#00df9a] font-bold text-3xl pb-3 text-center py-6">
+            Soft Skills
           </h4>
-          <ul className="mis pl-6 flex flex-wrap justify-between items-start">
-            <div>
+          <ul className="mis flex flex-wrap justify-around items-start">
+            <div className="">
               <li className="py-1">
-                Strong teamwork, communication skills, Leadership Ability.
+                Strong teamwork, Fluent in English, Leadership Ability.
               </li>
               <li className="py-1">
                 Fast learner, enthusiastic about personal growth and development
               </li>
             </div>
-            <div>
+            <div className="">
               <li className="py-1">Great graphic design skills with Canva</li>
               <li className="py-1">
                 Results-driven, consistently delivers and exceeds expectations
               </li>
-            </div>
-            <div>
-              <li className="py-1">
-                Proficient in microsoft excel and powerpoint.
-              </li>
-              <li className="py-1">Fluent in English</li>
             </div>
           </ul>
         </div>

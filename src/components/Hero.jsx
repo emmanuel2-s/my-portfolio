@@ -1,8 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import star from "../assets/img/star.png";
-// import profile from "../assets/img/result (2).png";
-import profile from "../assets/img/circle.svg";
+import profile from "../assets/img/profile-img.png";
 // import profile from "../assets/img/3d-graphic-designer 1.png";
 import profil from "../assets/img/snapchat.jpg";
 import {
@@ -18,20 +17,22 @@ import { MdFacebook, MdOutlineArrowDownward } from "react-icons/md";
 function Hero() {
   return (
     <>
-      <div className="hty pt-16 md:pt-32 w-full max-w-[1440px] mx-auto h-full md:py-20 md:flex md:flex-row-reverse md:justify-between md:pr-8">
+      <div className="hty pt-16 md:pt-32 w-full container mx-auto h-full md:py-20 md:flex md:flex-row-reverse md:justify-between md:pr-8">
         <div className="relative">
           {/* <div className="hidden w-full absolute md:block bg-gradient-to-t lg:absolute z-30 from-black h-full lg:w-[500px] lg:h-[600px] rounded-t-lg"></div> */}
-
+          {/* Large Screen View */}
           <img
             src={profile}
             alt="/"
             width={500}
-            className=" hidden md:flex flex-shrink-0 lg:h-[600px] rounded-md hover:animate-spin"
+            className=" hidden md:flex flex-shrink-0 lg:h-[600px] rounded-md"
           />
+
+          {/* Mobile View */}
           <img
-            src={profil}
+            src={profile}
             alt="my profile picture"
-            className="rounded-full border-8 border-[#00df9a] w-[400px] h-[400px] block md:hidden mx-auto"
+            className=" w-[400px] h-[400px] block md:hidden mx-auto px-4"
           />
         </div>
 
@@ -52,7 +53,7 @@ function Hero() {
               </p>
               <Typed
                 className="typed text-3xl md:text-4xl sm:text-4xl"
-                strings={["WEB-DEVELOPER", "YOUTUBER", "WRITER"]}
+                strings={["WEB-DEVELOPER"]}
                 typeSpeed={120}
                 backSpeed={130}
                 loop
@@ -80,7 +81,11 @@ function Hero() {
             <a className="px-4 md:px-3 hover:scale-125 duration-300" href="">
               <AiFillInstagram className="hover:shadow-[0_0_10px_#00df9a]" />
             </a>
-            <a className="px-4 md:px-3 hover:scale-125 duration-300" href="">
+            <a
+              className="px-4 md:px-3 hover:scale-125 duration-300"
+              href="https://github.com/emmanuel2-s"
+              target="_blank"
+            >
               <AiFillGithub className="hover:shadow-[0_0_10px_#00df9a]" />
             </a>
             <a className="px-4 md:px-3 hover:scale-125 duration-300" href="">

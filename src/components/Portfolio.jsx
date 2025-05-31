@@ -27,7 +27,7 @@ function Portfolio() {
 
   return (
     <>
-      <div className="border-slate-700 border-t pt-8 text-center sm:text-left max-w-[1440px] w-full mx-auto px-3">
+      <div className="border-slate-700 w-full border-t pt-8 text-center sm:text-left container mx-auto px-3">
         <div className=""></div>
         <div className="flex justify-center sm:text-left">
           <h1
