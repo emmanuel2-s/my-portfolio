@@ -67,7 +67,7 @@ export const dataImage = [
     img: techbrandex,
     title: "Zamco Eatery Website",
     text: "A shopping website with an amazing appetizer and delicious meal worth craving for. built with ReactJs, Tailwindcss, firebase.",
-    link1: "https://techbrandex.com",
+    link1: "https://techbrandexng.com",
     link2: "https://github.com/emmanuel2-s/burger-eatery-app",
     icon1: <AiFillGithub />,
     icon2: <FaLink />,
