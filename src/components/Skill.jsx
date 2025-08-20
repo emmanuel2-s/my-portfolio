@@ -11,7 +11,7 @@ function Skill() {
           <h1 className="text-4xl md:text-5xl text-[#00df9a] text-center px-4 ">
             Skills
           </h1>
-          <div className="absolute border-b-4 border-[#00df9a] top-6 left-[47%] bottom-0 w-24 h-6"></div>
+          {/* <div className="absolute border-b-4 border-[#00df9a] top-6 left-[47%] bottom-0 w-24 h-6"></div> */}
         </div>
         <div className="grid gap-y-8 md:grid-cols-2 lg:grid-cols-3 md:gap-10 mt-10 md:gap-y-8">
           <div className="border-4 border-[#00df9a] w-7/12  md:w-9/12 mx-auto shadow-[0_0_10px_#00df9a] rounded py-6 hover:scale-105 duration-500 delay-100">
@@ -70,7 +70,7 @@ function Skill() {
           <div className="border-4 border-[#00df9a] w-7/12  md:w-9/12 mx-auto shadow-[0_0_10px_#00df9a] rounded py-6 hover:scale-105 duration-500 delay-100">
             <div className="md:px-2">
               <h4 className="text-gray-400 font-bold text-center text-2xl pb-10">
-                Version Controls & Tech Tool
+                Version Controls
               </h4>
               <ul className="t list-none">
                 <li className="text-slate-300 font-bold text-center text-base py-4">

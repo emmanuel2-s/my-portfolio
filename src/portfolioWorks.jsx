@@ -3,6 +3,8 @@ import getlinked from "./assets/img/getlinked.png";
 import ecommerce from "./assets/img/ecommerce.png";
 import p2pretail from "./assets/img/p2pretail.png";
 import zamcoEatery from "./assets/img/zamco eatery.png";
+import bolfis from "./assets/img/bolfis.png";
+import techbrandex from "./assets/img/techbrandex.png";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLink } from "react-icons/fa6";
 
@@ -47,7 +49,25 @@ export const dataImage = [
     img: zamcoEatery,
     title: "Zamco Eatery Website",
     text: "A shopping website with an amazing appetizer and delicious meal worth craving for. built with ReactJs, Tailwindcss, firebase.",
-    link1: "zamcoeatery.netlify.app",
+    link1: "https://zamcoeatery.netlify.app",
+    link2: "https://github.com/emmanuel2-s/burger-eatery-app",
+    icon1: <AiFillGithub />,
+    icon2: <FaLink />,
+  },
+  {
+    img: bolfis,
+    title: "Bolfis cleaning and decorating Website",
+    text: "A shopping website with an amazing appetizer and delicious meal worth craving for. built with ReactJs, Tailwindcss, firebase.",
+    link1: "https://bolfiscleaningandeco.co.uk",
+    link2: "https://github.com/emmanuel2-s/burger-eatery-app",
+    icon1: <AiFillGithub />,
+    icon2: <FaLink />,
+  },
+  {
+    img: techbrandex,
+    title: "Zamco Eatery Website",
+    text: "A shopping website with an amazing appetizer and delicious meal worth craving for. built with ReactJs, Tailwindcss, firebase.",
+    link1: "https://techbrandex.com",
     link2: "https://github.com/emmanuel2-s/burger-eatery-app",
     icon1: <AiFillGithub />,
     icon2: <FaLink />,

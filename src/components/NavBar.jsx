@@ -16,13 +16,11 @@ function NavBar() {
     <>
       <nav>
         {/* desktop menu */}
-        <div className="text-white flex justify-between h-20 py-2 container mx-auto items-center px-4 z-[100] fixed w-full bg-black/70 top-0">
-          <a
-            href="#"
-            className="w-full decoration-transparent z-10 font-bold text-4xl md:text-4xl text-[#00df9a] uppercase"
-          >
-            folio.
-          </a>
+        <div className="text-white flex justify-between h-20 py-2 items-center px-4 z-[100] fixed w-full bg-black/70 top-0">
+          <h1 className="w-full decoration-transparent z-10 font-bold text-4xl md:text-4xl text-[#00df9a] uppercase">
+            <a href="#">folio.</a>
+          </h1>
+
           <ul className="ul hidden md:flex items-center md:mr-4">
             <li className="px-7 font-medium  text-base hover:text-[#00df9a] transition-all">
               <a href="#about">About</a>
